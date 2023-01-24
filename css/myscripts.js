@@ -1,4 +1,4 @@
-//div 1 introduction
+/*//div 1 introduction
 var countDownDate = new Date("Jan 25, 2023 9:00:00").getTime();
 var I = setInterval(function() {
 var now = new Date().getTime();
@@ -57,4 +57,4 @@ var distance4 = countDownDate4 - now4;
   if (distance4 < 0) {
     clearInterval(m);
     document.getElementById("math").innerHTML = "EXPIRED";
-    document.getElementById("math").style.color = "#ff0000";}}, 1000);
+    document.getElementById("math").style.color = "#ff0000";}}, 1000);*/
