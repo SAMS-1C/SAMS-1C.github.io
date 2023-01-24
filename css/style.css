@@ -69,12 +69,6 @@ section {
   color: #000;}
 .header .navbar a:hover {
   text-decoration: underline;}
-.header .btn {
-  margin-top: 0;}
-#menu-btn {
-  cursor: pointer;
-  font-size: 3rem;
-  display: none;}
 @-webkit-keyframes floating {
   0%, 100% {
     -webkit-transform: translateY(0rem);
@@ -89,37 +83,6 @@ section {
   50% {
     -webkit-transform: translateY(-4rem);
             transform: translateY(-4rem);}}
-.home {
-  min-height: 80vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 2rem;
-  background: #f6e4d5;}
-.home .image {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 42rem;
-          flex: 1 1 42rem;
-  margin-top: 5rem;}
-.home .image img {
-  width: 100%;
-  -webkit-animation: floating 4s linear infinite;
-          animation: floating 4s linear infinite;}
-.home .content {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 42rem;
-          flex: 1 1 42rem;}
-.home .content h3 {
-  font-size: 6rem;}
-.home .content p {
-  font-size: 2rem;
-  padding: 1rem 0;
-  line-height: 2;}
 .services {
   background: #f6e4d5d2;}
 .services .box-container {
@@ -130,7 +93,7 @@ section {
   gap: 1.5rem;}
 .services .box-container .box {
   background: #fff;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   text-align: center;
   border-radius: .5rem;}
 .services .box-container .box img {
@@ -156,7 +119,7 @@ section {
   border: 1.5px solid #000000;
   border-radius: 4px;
   background-color: rgba(255, 255, 255, 0.486);
-  padding: 5px;;}
+  padding: 2px;}
 .steps .box-container .box img {
   height: 10rem;}
 .steps .box-container .box h3 {
@@ -175,3 +138,9 @@ section {
 @media (max-width: 450px) {
   html {font-size: 50%;}
   .heading h1 {font-size: 3rem;}}
+  #end{
+    height: 20px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+  }
