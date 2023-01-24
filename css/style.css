@@ -21,7 +21,7 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar-thumb {
   background: #000;}
 section {
-  padding: 4.1rem 9%;}
+  padding: 3.54rem 9%;}
 .heading {
   text-align: center;
   margin-bottom: 2rem;}
@@ -69,20 +69,20 @@ section {
   color: #000;}
 .header .navbar a:hover {
   text-decoration: underline;}
-@-webkit-keyframes floating {
-  0%, 100% {
-    -webkit-transform: translateY(0rem);
-            transform: translateY(0rem);}
-  50% {
-    -webkit-transform: translateY(-4rem);
-            transform: translateY(-4rem);}}
-@keyframes floating {
-  0%, 100% {
-    -webkit-transform: translateY(0rem);
-            transform: translateY(0rem);}
-  50% {
-    -webkit-transform: translateY(-4rem);
-            transform: translateY(-4rem);}}
+  @-webkit-keyframes floating {
+    0%, 100% {
+      -webkit-transform: translateY(0rem);
+              transform: translateY(0rem);}
+    50% {
+      -webkit-transform: translateY(-4rem);
+              transform: translateY(-4rem);}}
+  @keyframes floating {
+    0%, 100% {
+      -webkit-transform: translateY(0rem);
+              transform: translateY(0rem);}
+    50% {
+      -webkit-transform: translateY(-4rem);
+              transform: translateY(-4rem);}}
 .services {
   background: #f6e4d5d2;}
 .services .box-container {
@@ -106,7 +106,7 @@ section {
   line-height: 2;
   font-size: 1.7rem;}
 .steps {
-  background: #cae8e383;}
+  background: #f6e4d5d2;}
 .steps .box-container {
   display: -ms-grid;
   display: grid;
