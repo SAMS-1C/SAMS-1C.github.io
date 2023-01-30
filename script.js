@@ -1,5 +1,5 @@
 //div 1 introduction
-var countDownDate = new Date("Jan 30, 2023 12:45:00").getTime();
+/*var countDownDate = new Date("Jan 30, 2023 12:45:00").getTime();
 var I = setInterval(function() {
 var now = new Date().getTime();
 var distance = countDownDate - now;
@@ -57,4 +57,13 @@ var distance4 = countDownDate4 - now4;
   if (distance4 < 0) {
     clearInterval(m);
     document.getElementById("math").innerHTML = "EXPIRED";
-    document.getElementById("math").style.color = "#ff0000";}}, 1000);
+    document.getElementById("math").style.color = "#ff0000";}}, 1000);*/
+  // شايفك ياللي بتحاول تفتح 
+  function script() {
+    var password = "mostafa";
+    var x = prompt("Enter the password "," ");
+    if (x.toLowerCase() == password) {
+     alert("Horray");
+     window.location.href = 'https://sams-1c.github.io';}
+     else{alert("Haha xD U Can't");}};
+     document.getElementById('link').onclick = function () {script();};
