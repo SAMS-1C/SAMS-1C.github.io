@@ -62,7 +62,7 @@ var distance4 = countDownDate4 - now4;
   function script() {
     var password = "mostafa";
     var x = prompt("Enter the password "," ");
-    if (x.toLowerCase() == password) {
+    if (x == password) {
      alert("Horray");
      window.location.href = 'https://sams-1c.github.io';}
      else{alert("Haha xD U Can't");}};
