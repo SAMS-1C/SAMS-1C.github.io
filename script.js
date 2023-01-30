@@ -64,6 +64,6 @@ var distance4 = countDownDate4 - now4;
     var x = prompt("Enter the password "," ");
     if (x == password) {
      alert("Horray");
-     window.location.href = 'https://sams-1c.github.io';}
+     window.location.href = 'https://google.com';}
      else{alert("Haha xD U Can't");}};
      document.getElementById('link').onclick = function () {script();};
