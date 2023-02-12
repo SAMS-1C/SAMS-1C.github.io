@@ -1,19 +1,5 @@
-var countDownDate = new Date("Feb 11, 2023 8:00:00").getTime();
-var I = setInterval(function() {
-var now = new Date().getTime();
-var distance = countDownDate - now;
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  document.getElementById("start").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-  if (distance < 0) {
-    clearInterval(I);
-    document.getElementById("start").innerHTML = "الدراسة بدأت";
-    document.getElementById("start").style.color = "#ff0000";}}, 1000);
 //div 1 
-/*var countDownDate = new Date("Feb 30, 2023 12:45:00").getTime();
+var countDownDate = new Date("Feb 19, 2023 10:00:00").getTime();
 var I = setInterval(function() {
 var now = new Date().getTime();
 var distance = countDownDate - now;
@@ -26,9 +12,9 @@ var distance = countDownDate - now;
   if (distance < 0) {
     clearInterval(I);
     document.getElementById("div1").innerHTML = "EXPIRED";
-    document.getElementById("div1").style.color = "#ff0000";}}, 1000); 
+    document.getElementById("div1").style.color = "#ff0000";}}, 1000);
 //div 2 
-var countDownDate2 = new Date("Jan 26, 2023 15:37:25").getTime();
+/*var countDownDate2 = new Date("Jan 26, 2023 15:37:25").getTime();
 var P = setInterval(function() {
 var now2 = new Date().getTime();
 var distance2 = countDownDate2 - now2;
