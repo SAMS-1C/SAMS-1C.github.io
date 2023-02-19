@@ -14,7 +14,7 @@ var distance = countDownDate - now;
     document.getElementById("div1").innerHTML = "EXPIRED";
     document.getElementById("div1").style.color = "#ff0000";}}, 1000);
 //div 2 
-var countDownDate2 = new Date("Feb 26, 2023 15:37:25").getTime();
+var countDownDate2 = new Date("Feb 26, 2023 8:00:00").getTime();
 var P = setInterval(function() {
 var now2 = new Date().getTime();
 var distance2 = countDownDate2 - now2;
