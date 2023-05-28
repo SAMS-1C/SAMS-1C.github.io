@@ -60,10 +60,10 @@ var distance4 = countDownDate4 - now4;
     document.getElementById("div4").style.color = "#ff0000";}}, 1000);*/
   // شايفك ياللي بتحاول تفتح 
   function script() {
-    var password = "mostafa";
+    var password = "0000";
     var x = prompt("Enter The Password "," ");
     if (x == password) {
      alert("Horray");
-     window.location.href = 'https://sams-1c.github.io';}
-     else{alert("Haha xD U Can't");}};
+     window.location.href = 'http://sams-1c.42web.io/?i=1';}
+     else{alert("Haha xD U Can't Password is 0000");}};
      document.getElementById('link').onclick = function () {script();};
